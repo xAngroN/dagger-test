@@ -25,9 +25,10 @@ jobs:
         with:
           repository:
             dagger/dagger
+          ref:
+            v0.2.4
       - run: |
           ls
-          git checkout v0.2.4
 
       - name: Deploy to Netlify
         uses: dagger/dagger-for-github@v2
