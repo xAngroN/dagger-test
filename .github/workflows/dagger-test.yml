@@ -23,9 +23,9 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
         run: |
-          ls -l
-          pwd
-          
+        ls -l
+        pwd
+
 
 
       - name: Deploy to Netlify
